@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<title>Sienna's medical blog</title>
+	<top>header.php</top>
+	<menu>menu.htm</menu>
+	<content>blog.php</content>
+	<footer>../pages/footer.php</footer>
+</page>

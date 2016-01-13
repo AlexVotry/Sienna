@@ -1,0 +1,23 @@
+<!-- *****************************************
+Add something form
+*******************************
+ -->
+<?php 
+ date_default_timezone_set("America/Los_Angeles");
+$date = date("m/d"); 
+ ?>
+<h2>Write it!</h2>
+    <div class="formLayout">
+        <form action="../control/tempBlog.php" method="post">
+        <!-- <label>Title:</label>
+            <input name="title" type="text" ><br>
+        <label>Author:</label> -->
+            <!-- <input name="author" type="text"><br> -->
+        <label>Date:</label>
+            <input name="datePub" type="text" value="<?php echo $date; ?>"><br>
+        <label>today's notes:</label><br>
+            <textarea name="item" cols="80" rows="30"></textarea> <br>
+        <input type="submit" value="Add it!" id="cmdSubmit">
+        <br><br>
+        </form>
+    </div>

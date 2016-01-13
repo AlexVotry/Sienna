@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<title>Doctors</title>
+	<top>header.php</top>
+	<menu>menu.htm</menu>
+	<content>docView.php</content>
+	<footer>footer.php</footer>
+</page>

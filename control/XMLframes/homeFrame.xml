@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<title>Sienna's Main Page</title>
+	<top>header.php</top>
+	<menu>menu.htm</menu>
+	<content>medForm.php</content>
+	<footer>footer.php</footer>
+</page>
